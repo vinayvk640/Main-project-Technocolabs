@@ -70,6 +70,8 @@
                <option>Sort by sale</option>
            </select>
        </div>
+       
+       
        <div class="row">
            <div class="col-4">
             <a href="products-details.html"><img src="chicken.webp" alt=""></a>
@@ -85,6 +87,23 @@
                </div>
                <p>₹170 for one</p>
            </div>
+           <script>
+            function initMap(){
+            var options={
+              zoom:10,
+              center:{ lat:26.9182798, lng:80.9539467}
+            }
+            var map= new google.maps.Map(document.getElementById("map"),options);
+        
+            var marker= new google.maps.Marker({
+            position:{ lat:26.9182798, lng:80.9539467},
+            map:map
+            });
+          }
+          </script>
+    
+    
+           <script async defer src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyAUSZUCxMQVktdX_ST7HsBJhILlSl-pcxo&callback=initMap"></script>
            <div class="col-4">
             <img src="Domino's.webp" alt="">
             <h4>Domino's Pizza</h4>
@@ -99,6 +118,24 @@
             </div>
             <p>₹300 for one</p>
         </div>
+
+        <script>
+            function initMap(){
+            var options={
+              zoom:10,
+              center:{ lat:11.017581, lng:77.000658}
+            }
+            var map= new google.maps.Map(document.getElementById("map"),options);
+        
+            var marker= new google.maps.Marker({
+            position:{ lat:11.017581, lng:77.000658},
+            map:map
+            });
+          }
+          </script>
+    
+    
+           <script async defer src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyAUSZUCxMQVktdX_ST7HsBJhILlSl-pcxo&callback=initMap"></script>
         <div class="col-4">
             <img src="baker.webp" alt="">
             <h4>Red Door Cafe</h4>
